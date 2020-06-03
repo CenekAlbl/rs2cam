@@ -1,14 +1,12 @@
 
-<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SubN2Nralt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<p>
 <img src="imgs/patent_pending.jpg" alt="patent pending" style="float: right;"/>
 
 This is a project page dedicated to our CVPR 2020 paper.<br><br>
 
 For more information see the pre-print version of the paper <a href="arxiv.pdf">here</a><br><br>
-
-Or watch our 5 minute oral presentation here: <a href="https://youtu.be/SubN2Nralt8">https://youtu.be/SubN2Nralt8</a>
-
 </p>
 
 # Motivation
