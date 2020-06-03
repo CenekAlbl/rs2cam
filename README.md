@@ -135,7 +135,7 @@ We can also correct the sparse correspondences and use them in a traditional SfM
 And here is the result of the 3D reconstruction for the original RS images, our undistorted ones and images captured by a GS camera:
 
 <p float="left" align="center">
-<img src="imgs/sfm.jpg" height="200"/>
+<img src="imgs/sfm.jpg"/>
 </p>
 
 ## The method
