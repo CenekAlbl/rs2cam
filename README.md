@@ -5,9 +5,9 @@
 
 This is a project page dedicated to our CVPR 2020 paper.<br><br>
 
-For more information see the pre-print version of the paper [here](TBA)<br><br>
+For more information see the pre-print version of the paper [here](arxiv.pdf)<br><br>
 
-Or watch our 5 minute oral presentation here: [https://youtu.be/SubN2Nralt8](https://youtu.be/SubN2Nralt8)
+Or watch our 5 minute oral presentation here: <a href="https://youtu.be/SubN2Nralt8">https://youtu.be/SubN2Nralt8</a>
 
 </p>
 
@@ -34,7 +34,7 @@ All this is facilitated by using different readout directions for each camera. T
 If a device ( e.g. a smartphone) with two RS cameras moves, the images contain distortions. In current devices the cameras both use identical readout directions, which causes the distortions to look identical.
 
 <p align="center">
-<img src="imgs/arrow_text_down.png" alt="down" height="200"/>
+<img src="imgs/arrow_text_down.png" alt="down" style="max-width: 20%;"/>
 <img src="imgs/phone_identical_no_arrows.jpg" alt="down" height="200"/>
 <img src="imgs/arrow_text_down.png" alt="down" height="200"/>
 </p>
