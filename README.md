@@ -5,7 +5,7 @@
 
 This is a project page dedicated to our CVPR 2020 paper.<br><br>
 
-For more information see the pre-print version of the paper <a href="rs2cam/arxiv.pdf">here</a><br><br>
+For more information see the pre-print version of the paper <a href="arxiv.pdf">here</a><br><br>
 
 Or watch our 5 minute oral presentation here: <a href="https://youtu.be/SubN2Nralt8">https://youtu.be/SubN2Nralt8</a>
 
@@ -35,7 +35,7 @@ If a device ( e.g. a smartphone) with two RS cameras moves, the images contain d
 
 <p align="center">
 <img src="imgs/arrow_text_down.png"  height="150"/>
-<img src="imgs/phone_identical_no_arrows.jpg" alt="down" height="150"/>
+<img src="imgs/phone_identical_no_arrows.jpg" height="150"/>
 <img src="imgs/arrow_text_down.png"  height="150"/>
 </p>
 
@@ -83,7 +83,7 @@ We can warp both input images and then combine them to obtain a more complete un
 
 For smartphones it is typical that one camera has a different FOV due to e.g. a telephoto lens. We show that even such combination can be efficiently used:
 
-<table>
+<table style="margin: 0px auto;">
 	<tr>
 		<td>Wide</td>
 		<td>Zoom</td>
@@ -119,7 +119,7 @@ Note that the quality of the result will depend on the quality of the correspond
   
 We can also correct the sparse correspondences and use them in a traditional SfM pipeline to obtain a better 3D reconstruction than with the RS images.
 
-<table>
+<table style="margin: 0px auto;">
 	<tr>
 		<td>Sparse features image 1</td>
 		<td>Sparse features image 2</td>
@@ -135,7 +135,7 @@ We can also correct the sparse correspondences and use them in a traditional SfM
 And here is the result of the 3D reconstruction for the original RS images, our undistorted ones and images captured by a GS camera:
 
 <p float="left" align="center">
-<img src="imgs/sfm.jpg" height="150"/>
+<img src="imgs/sfm.jpg" height="200"/>
 </p>
 
 ## The method
