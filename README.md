@@ -1,6 +1,6 @@
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SubN2Nralt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/SubN2Nralt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 <p>
 <img src="imgs/patent_pending.jpg" alt="patent pending" style="float: right;"/>
 
