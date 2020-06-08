@@ -6,3 +6,9 @@
 .inner {
   max-width: 50%;
 }
+
+@media orientation: portrait {
+  .inner {
+    max-width: 100%;
+  }
+}
