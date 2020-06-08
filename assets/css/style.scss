@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-@media orientation:portrait {
+@media not orientation:portrait {
   .inner {
     max-width: 50%;
   }
