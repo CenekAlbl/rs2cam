@@ -40,9 +40,7 @@ All this is facilitated by using different readout directions for each camera. T
 If a device ( e.g. a smartphone) with two RS cameras moves, the images contain distortions. In current devices the cameras both use identical readout directions, which causes the distortions to look identical.
 
 <p align="center">
-<img src="imgs/arrow_text_down.png"  height="150"/>
-<img src="imgs/phone_identical_no_arrows.jpg" height="150"/>
-<img src="imgs/arrow_text_down.png"  height="150"/>
+<img src="imgs/phone_identical.jpg"  height="150"/>
 </p>
 
 Our idea is to **roll the shutters in the opposite directions**.  
