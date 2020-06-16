@@ -46,7 +46,7 @@ If a device ( e.g. a smartphone) with two RS cameras moves, the images contain d
 Our idea is to **roll the shutters in the opposite directions**.  
 
 <p align="center">
-<img src="imgs/phone_opposite.png"  height="150"/>
+<img src="imgs/phone_opposite.png"/>
 </p>
 
 Having such differences in the distortion allows us to compute the motion of the device from a few sparse correspondences.  
@@ -54,7 +54,7 @@ Having such differences in the distortion allows us to compute the motion of the
 The motion parameters can then be used to e.g. undistort the image:  
 
 <p align="center">
-<img src="imgs/re_rot4.jpg" height="300" alt="down"/>
+<img src="imgs/rotation1_warped.jpg"/>
 </p>
 
 ## Examples
@@ -80,7 +80,7 @@ and opposite directions:
 We can warp both input images and then combine them to obtain a more complete undistorted image:
 
 <p align="center">
-<img src="imgs/rot11_combined_res.jpg" height="300"/>
+<img src="imgs/rotation2_combined.jpg"/>
 </p>
 
 For smartphones it is typical that one camera has a different FOV due to e.g. a telephoto lens. We show that even such combination can be efficiently used:
@@ -92,9 +92,9 @@ For smartphones it is typical that one camera has a different FOV due to e.g. a 
 		<td>Undistorted</td>
 	</tr>
 	<tr>
-		<td><img src="imgs/wide_features.jpg" height="150"/></td>
-		<td><img src="imgs/narrow_features.jpg" height="150"/></td>
-		<td><img src="imgs/wide_narrow_undist.jpg" height="150"/></td>
+		<td><img src="imgs/wide_features.jpg"/></td>
+		<td><img src="imgs/narrow_features.jpg"/></td>
+		<td><img src="imgs/wide_narrow_undist.jpg"/></td>
 	</tr>
 </table>
 
