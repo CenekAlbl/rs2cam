@@ -1,3 +1,12 @@
+<script>
+window.addEventListener('load', function () {
+ var w = window.outerWidth;
+ if (w > 560)
+   document.getElementById("intro_movie").width = "560";
+   document.getElementById("intro_movie").height = "315";
+ end
+});
+</script>
 <p align="center"><iframe id="intro_movie" width="256" height="144" src="https://www.youtube.com/embed/SubN2Nralt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 <p>
@@ -146,12 +155,4 @@ Here is a diagram briefly describing the workflows depending on the motion we wa
 ## License
 Patent pending. For more information please contact: cenek.albl@gmail.com .
 
-<script>
-window.addEventListener('load', function () {
- var w = window.outerWidth;
- if (w > 560)
-   document.getElementById("intro_movie").width = "560";
-   document.getElementById("intro_movie").height = "315";
- end
-});
-</script>
+
