@@ -18,7 +18,7 @@ For more information see the pre-print version of the paper <a href="arxiv.pdf">
 </p>
 
 # Motivation
-Majority of cameras use rolling shutter to capture images and videos today. When a rolling shutter camera moves relative to a scene, such as during hand held video capture or a camera mounted on a vehicle, the images become distorted. These distortions cause visual as well as computational issues.  
+The majority of cameras use rolling shutter to capture images and videos today. When a rolling shutter camera moves relative to a scene, such as during hand held video capture or a camera mounted on a vehicle, the images become distorted. These distortions cause visual as well as computational issues.  
   
 * Despite almost two decades of research, image distortions caused by camera motion remain an issue.  
 * It is common to have multiple cameras on a single device - smartphones, cars, head trackers.
