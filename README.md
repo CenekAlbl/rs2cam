@@ -101,20 +101,20 @@ For smartphones it is typical that one camera has a different FOV due to e.g. a 
 If the motion contains also translation:
 
 <p float="left" align="center">
-<img src="imgs/re_tr17_1.jpg" height="150"/>
-<img src="imgs/re_tr17_2.jpg" height="150"/>
+<img src="imgs/re_tr17_1.jpg"/>
+<img src="imgs/re_tr17_2.jpg"/>
 </p>
 
 We can obtain dense correspondences using e.g. optical flow and using the motion parameters we can compute the depth for each pixel:
 
 <p float="left" align="center">
-<img src="imgs/tr17_depth_fused.png" height="150"/>
+<img src="imgs/tr17_depth_fused.png"/>
 </p>
 
 And backproject to create and undistorted image: 
 
 <p float="left" align="center">
-<img src="imgs/tr17_res.jpg" height="150"/>
+<img src="imgs/tr17_res.jpg"/>
 </p>
 
 Note that the quality of the result will depend on the quality of the correspondences. The few artefacts are caused by having imperfect optical flow. We did not use any post-processing methods to remove those artefacts.  
@@ -128,9 +128,9 @@ We can also correct the sparse correspondences and use them in a traditional SfM
 		<td>Undistorted sparse features</td>
 	</tr>
 	<tr>
-		<td><img src="imgs/sparse_cam1.jpg" height="150"/></td>
-		<td><img src="imgs/sparse_cam2.jpg" height="150"/></td>
-		<td><img src="imgs/sparse_undist.png" height="150"/></td>
+		<td><img src="imgs/sparse_cam1.jpg"/></td>
+		<td><img src="imgs/sparse_cam2.jpg"/></td>
+		<td><img src="imgs/sparse_undist.png"/></td>
 	</tr>
 </table>
 
